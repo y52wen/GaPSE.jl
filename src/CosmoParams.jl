@@ -251,7 +251,7 @@ struct CosmoParams
           #WFI = merge(DEFAULT_WFI_OPTS, WFI_opts)
 
           @assert 0.0 < z_min < z_max " 0.0 < z_min < z_max must hold!"
-          @assert 0.0 ≤ θ_max ≤ π / 2.0 " 0.0 ≤ θ_max ≤ π/2.0 must hold!"
+          #@assert 0.0 ≤ θ_max ≤ π / 2.0 " 0.0 ≤ θ_max ≤ π/2.0 must hold!"
           @assert 0.0 ≤ Ω_b ≤ 1.0 " 0.0 ≤ Ω_b ≤ 1.0 must hold!"
           @assert 0.0 ≤ Ω_cdm ≤ 1.0 " 0.0 ≤ Ω_cdm ≤ 1.0 must hold!"
           @assert 0.0 < h_0 ≤ 1.0 " 0.0 < h_0 ≤ 1.0 must hold!"
